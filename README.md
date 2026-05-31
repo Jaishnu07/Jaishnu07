@@ -14,31 +14,55 @@
 
 <img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-```c
-#include <engineer.h>
+```verilog
+module Jaishnu_K (
+    input  wire  curiosity,
+    input  wire  coffee,
+    output reg   innovation,
+    output reg   solution
+);
 
-const char* name       = "Jaishnu K";
-const char* location   = "Chennai, Tamil Nadu 🇮🇳";
-const char* degree     = "B.E – Electronics & Communication Engineering";
-const char* college    = "Sri Sairam Institute of Technology";
+// --- Parameters ---
+parameter NAME       = "Jaishnu K";
+parameter LOCATION   = "Chennai, Tamil Nadu 🇮🇳";
+parameter DEGREE     = "B.E – Electronics & Communication Engineering";
+parameter COLLEGE    = "Sri Sairam Institute of Technology";
 
-char* stack[]          = {
-    "C", "Arduino", "SystemVerilog",
-    "ESP32", "KiCad", "Altium",
-    "EasyEDA", "Proteus", "Xilinx Vivado"
-};
+// --- Skill Registers ---
+reg [7:0] stack [0:8];
+initial begin
+    stack[0] = "C";           stack[1] = "Arduino";
+    stack[2] = "SystemVerilog"; stack[3] = "ESP32";
+    stack[4] = "KiCad";       stack[5] = "Altium";
+    stack[6] = "EasyEDA";     stack[7] = "Proteus";
+    stack[8] = "Xilinx Vivado";
+end
 
-char* currentlyLearning[] = {
-    "Advanced PCB Design → High-Speed Layouts",
-    "FPGA Development   → Verilog/SystemVerilog",
-    "IoT Protocols      → MQTT, BLE, LoRa"
-};
+// --- Currently Learning ---
+reg [7:0] learning [0:2];
+initial begin
+    learning[0] = "Advanced PCB Design → High-Speed Layouts";
+    learning[1] = "FPGA Development   → Verilog/SystemVerilog";
+    learning[2] = "IoT Protocols      → MQTT, BLE, LoRa";
+end
 
-const char* funFact    = "I once neutralized a simulated IED with an ESP32 😄";
+// --- Fun Fact ---
+localparam FUN_FACT = "I neutralized a simulated IED with an ESP32 😄";
 
-void motto() {
-    printf("Build. Break. Debug. Repeat.\n");
-}
+// --- Core Logic ---
+always @(posedge curiosity or posedge coffee) begin
+    if (coffee)
+        innovation <= 1'b1;
+    else
+        solution   <= curiosity & innovation;
+end
+
+// --- Motto ---
+task motto;
+    $display("Build. Break. Debug. Repeat.");
+endtask
+
+endmodule
 ```
 
 <br clear="right"/>
@@ -47,7 +71,7 @@ void motto() {
 - 🏆 **2× Prize winner** at Sairam SDG Innovathon & Inspirathon (Secure Hive project)
 - 📡 Built **IoT systems** with ESP32, Blynk, real-time sensor fusion
 - 🛠️ Skilled in **circuit testing, PCB design, and hardware validation**
-- 📧 Reach me: **[Jaishnu07.com](https://Jaishnu07.com)**
+- 📧 Reach me: **[🌐 My Portfolio](https://portfolio-eight-alpha-20.vercel.app)**
 - 📍 **Chennai, Tamil Nadu, India**
 
 ---
@@ -143,8 +167,8 @@ void motto() {
 
 | Project | Stack | Highlights |
 |:-------:|:-----:|:----------:|
-| 🐝 [**Secure Hive**](https://Jaishnu07.com) — IoT-Based IED Detection & Neutralization System | `ESP32` `EMF Sensors` `SMS/Email Alerts` `Circuit Design` | 🥉 3rd Prize @ SDG Innovathon 3.0 · 🥉 3rd Prize @ SDG Inspirathon 3.0 · Real-time threat detection with automated alert pipeline |
-| 🪑 [**Smart Chair**](https://Jaishnu07.com) — Posture Monitoring System | `ESP32` `Pressure Sensors` `IR Sensors` `Blynk IoT` | Real-time posture detection & monitoring · Multi-sensor fusion (pressure + IR) · Live dashboard on Blynk platform |
+| 🐝 [**Secure Hive**](https://portfolio-eight-alpha-20.vercel.app) — IoT-Based IED Detection & Neutralization System | `ESP32` `EMF Sensors` `SMS/Email Alerts` `Circuit Design` | 🥉 3rd Prize @ SDG Innovathon 3.0 · 🥉 3rd Prize @ SDG Inspirathon 3.0 · Real-time threat detection with automated alert pipeline |
+| 🪑 [**Smart Chair**](https://portfolio-eight-alpha-20.vercel.app) — Posture Monitoring System | `ESP32` `Pressure Sensors` `IR Sensors` `Blynk IoT` | Real-time posture detection & monitoring · Multi-sensor fusion (pressure + IR) · Live dashboard on Blynk platform |
 
 </div>
 
