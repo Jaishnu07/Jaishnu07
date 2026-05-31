@@ -135,12 +135,6 @@ endmodule
 
 ---
 
-## 🏆 Trophy Wall
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Jaishnu07&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4" alt="GitHub Trophies"/>
-</div>
-
 ---
 
 ## 💼 Work Experience
@@ -167,7 +161,7 @@ endmodule
 
 | Project | Stack | Highlights |
 |:-------:|:-----:|:----------:|
-| 🐝 [**Secure Hive**](https://portfolio-eight-alpha-20.vercel.app) — IoT-Based IED Detection & Neutralization System | `ESP32` `EMF Sensors` `SMS/Email Alerts` `Circuit Design` | 🥉 3rd Prize @ SDG Innovathon 3.0 · 🥉 3rd Prize @ SDG Inspirathon 3.0 · Real-time threat detection with automated alert pipeline |
+| 🐝 [**Secure Hive**](https://secure-bice.vercel.app/) — IoT-Based IED Detection & Neutralization System | `ESP32` `EMF Sensors` `SMS/Email Alerts` `Circuit Design` | 🥉 3rd Prize @ SDG Innovathon 3.0 · 🥉 3rd Prize @ SDG Inspirathon 3.0 · Real-time threat detection with automated alert pipeline |
 | 🪑 [**Smart Chair**](https://portfolio-eight-alpha-20.vercel.app) — Posture Monitoring System | `ESP32` `Pressure Sensors` `IR Sensors` `Blynk IoT` | Real-time posture detection & monitoring · Multi-sensor fusion (pressure + IR) · Live dashboard on Blynk platform |
 
 </div>
