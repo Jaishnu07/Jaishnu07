@@ -71,7 +71,7 @@ endmodule
 - 🏆 **2× Prize winner** at Sairam SDG Innovathon & Inspirathon (Secure Hive project)
 - 📡 Built **IoT systems** with ESP32, Blynk, real-time sensor fusion
 - 🛠️ Skilled in **circuit testing, PCB design, and hardware validation**
-- 📧 Reach me: **[Jaihnu K](https://portfolio-eight-alpha-20.vercel.app)**
+- 📧 Reach me: **[Jaishnu K](https://portfolio-eight-alpha-20.vercel.app)**
 - 📍 **Chennai, Tamil Nadu, India**
 
 ---
